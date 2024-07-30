@@ -1,40 +1,42 @@
 # desafio-Sentencias-condicionales-e-iterativas-II-
 
-Título del Proyecto
+# Desafío - Sentencias Condicionales e Iterativas (II)
 
-Desafío - Sentencias condicionales e iterativas (II)
+Breve descripción del proyecto y su objetivo.
 
-Breve descripción del proyecto y su objetivo:
-En este desafío se validan los conocimientos sobre ciclos mediante tres actividades independientes que utilizan bucles para su resolución.
+## Descripción del proyecto
 
-Descripción del Proyecto
+Este proyecto contiene tres actividades que demuestran el uso de ciclos y sentencias condicionales en Python. Las actividades incluyen la filtración de datos financieros, una aplicación interactiva para primeros auxilios y un programa de fuerza bruta para probar la seguridad de contraseñas.
 
-Este proyecto consiste en resolver tres actividades que emplean ciclos para completar sus objetivos. Cada actividad tiene sus propios requerimientos y desarrollo específico.
 
-Actividades
+## Prerrequisitos o Dependencias
 
-Actividad 1 - Filtrado compacto
-Se provee un diccionario con los balances del año anterior y se solicita devolver un informe resumido que exponga los meses que superan un cierto umbral. El programa mayor_a.py debe retornar un diccionario con el mes y el valor asociado siempre y cuando superen el umbral especificado.
+Lista de software y herramientas necesarias para instalar y ejecutar este proyecto:
 
-Ejemplo:
+- Sistema Operativo: Windows 10, Ubuntu 20.04, macOS
+- Lenguaje de programación: Python 3.8 o superior
+- Bibliotecas de Python:
+  - `string` (incluido en la biblioteca estándar de Python)
 
-sh
-Copiar código
-python mayor_a.py 40000
-Salida esperada:
+## Instalación del Proyecto
 
-python
-Copiar código
-{'Mayo': 81000, 'Agosto': 41200, 'Noviembre': 91000}
-Actividad 2 - Primeros auxilios
-Se requiere la construcción de una aplicación interactiva primeros_auxilios.py que entregue los distintos pasos a seguir dependiendo de las respuestas que el usuario entrega en tiempo real.
+Sigue los siguientes pasos para configurar el entorno de desarrollo e instalar todas las dependencias:
 
-Actividad 3 - Fuerza bruta
-Determinar cuántos intentos son necesarios para encontrar combinaciones de letras en minúsculas. El programa fuerza_bruta.py debe intentar todas las combinaciones de letras posibles, en orden alfabético, hasta que la combinación de letras sea igual a la de la contraseña indicada. Deberá hacer este proceso letra por letra, de izquierda a derecha.
+```bash
+# paso 1: Clonar el repositorio
+git clone https://github.com/darjnest/desafio-Sentencias-condicionales-e-iterativas-II-/edit/main/README.md
 
-Ejemplo:
+# paso 2: Navegar al directorio del proyecto
+cd proyecto
 
-sh
-Copiar código
+# Actividad 1 - Filtrado compacto
+python mayor_a.py [umbral]
+
+# Actividad 2 - Primeros auxilios
+python primeros_auxilios.py
+
+# Actividad 3 - Fuerza bruta
 python fuerza_bruta.py
-Ingrese la contraseña: gato
+
+Autor 
+Carlos Silva diaz 
